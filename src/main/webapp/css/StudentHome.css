@@ -1,0 +1,165 @@
+*{
+   
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+}
+html{
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+html, body{
+    position: fixed;
+    font-family: Roboto, sans-serif, arial;
+    font-size: 14px;
+    color: #242424;
+    font-weight: 400;
+}
+
+.container1{
+    width: 100%;
+    margin: 0px auto;
+    display: table;
+}
+
+.width-100{
+    width: 100%;
+    float: left;
+}
+
+.width-50{
+    padding-top: 10px;
+    width: 30%;
+    float: left;
+}
+
+.width-25{
+    margin-top: 10px;
+    width: 35%;
+    float: left;
+   
+}
+
+/* header section start */
+.header{
+    background-color: #68bb59;
+    
+}
+
+.head-left ul{
+    list-style: none;
+    float: left;
+    
+}
+
+.head-left ul li{
+    border-radius: 1px solid rgba(255,255,255, .3);
+    border-left: 1px solid rgba(255,255,255,.3);
+    float:left; 
+    padding: 15px;
+    color: white;
+    
+}
+
+.head-left ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+.notification{
+    padding-top: 17px;
+    color: white;
+}
+
+.notification span img{
+    height: 14px;
+    width: 30px;
+}
+
+.notification span{
+    padding-right: 5px;
+}
+.head-right ul{
+    list-style: none;
+    float: right;
+    
+}
+.head-right ul li{
+    border-radius: 1px solid rgba(255,255,255, .3);
+    border-left: 1px solid rgba(255,255,255,.3);
+    float:left;
+    padding: 15px;
+    color: white;
+    
+}
+.head-right ul li a{
+    color: white;
+    text-decoration: none;
+    
+}
+.head-span img{
+    height: 14px;
+    width: 30px;
+}
+
+/* menu section starts */
+#menu{
+    background-color: #242424;
+}
+.logo{
+    /* padding-top: 15px; */
+    padding-bottom: 5px;
+}
+.logo img{
+    height: 50px;
+}
+.head-menu{
+    padding-right: 50px;
+    padding-top: 25px;
+    padding-bottom: 12px;
+    background-color: #242424;
+}
+.head-menu ul{
+    list-style: none;
+    float: right;
+    font-size: 14px;
+}
+.head-menu ul li{
+    float: left;
+    padding-left: 20px;
+    padding: 5px;
+    border-radius: 1px solid rgba(253, 229, 229, 0.624);
+    border-left: 1px solid rgba(253, 229, 229, 0.624);
+}
+.head-menu ul li a{
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none; 
+}
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+   
+    }
+
+    #welcome{
+        margin-top: -500px;
+        color: white;
+        /* margin-left: 450px; */
+        position: relative;
+        text-align: center;
+       
+    }
+    p{
+        font-size: 50px;
+    }

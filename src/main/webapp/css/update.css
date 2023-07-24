@@ -1,0 +1,154 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body {
+    font-family: Roboto, sans-serif, arial;
+    font-size: 14px;
+    color: #242424;
+    font-weight: 400;
+    text-align: center;
+}
+h1 {
+    text-align: center;
+}
+
+.dige {
+    margin-left: 450px;
+}
+
+.container1 {
+    width: 100%;
+    margin: 0px auto;
+    display: table;
+
+}
+
+.width-100 {
+    width: 100%;
+    float: left;
+}
+
+.width-50 {
+    width: 40%;
+    float: left;
+    margin-left: 120px;
+}
+
+.width-25 {
+    width: 25%;
+    float: left;
+}
+
+#menu {
+    background-color: #242424;
+}
+
+.logo {
+    padding-left: 90px;
+    padding-top: 30px;
+    padding-bottom: 5px;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.head-menu {
+    padding-top: 25px;
+    padding-bottom: 12px;
+    background-color: #242424;
+  
+}
+
+.head-menu ul {
+    list-style: none;
+    float: right;
+    font-size: 14px;
+}
+
+.head-menu ul li {
+    float: left;
+    padding-left: 200px;
+    padding: 20px;
+
+    border-radius: 1px solid rgba(253, 229, 229, 0.624);
+    border-left: 1px solid rgba(253, 229, 229, 0.624);
+}
+
+.head-menu ul li a {
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+span {
+    color: white;
+}
+
+.notification {
+    padding-top: 7%;
+}
+.button_container {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+    margin-right:320px;
+
+}
+
+input[type="submit"] {
+    background-color: red;
+    border: transparent solid 2px;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 8px;
+    transition: 0.3s ease-in;
+    margin-left: 100px;
+    border-radius: 10px;
+}
+input[type="submit"]:hover {
+    background-color: #ccc;
+    border: 2px solid red;
+    color: black;
+    transition: 0.3s ease-out;
+    cursor: pointer;
+}
+
+.student {
+    margin-left: 450px;
+    text-align: center;
+}
+
+#myVideo {
+    position: relative;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+
+}
+
+#tablemar {
+    margin-top: -675px;
+    position: relative;
+    color: white;
+}
+
+.sachu {
+    background-color:transparent;
+}
